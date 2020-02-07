@@ -1,8 +1,14 @@
 {
   "name": "eslint-config-wikimedia-web-team",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint config following Wikimedia Web Team Conventions",
-  "main": "index.js",
+  "main": "es5.client.json",
+  "files": [
+    "es5.client.json",
+    "es6.cient.json",
+    "language/es5.js",
+    "language/es6.js"
+  ],
   "author": "Wikimedia Web Team",
   "license": "MIT",
   "peerDependencies": {
