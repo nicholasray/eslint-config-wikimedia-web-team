@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-wikimedia-web-team",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint config following Wikimedia Web Team Conventions",
   "main": "index.js",
   "author": "Wikimedia Web Team",
   "license": "MIT",
-  "dependencies": {
-    "eslint-config-wikimedia": "^0.15.0"
+  "peerDependencies": {
+    "eslint-config-wikimedia": ">= 0.15.0"
   }
 }

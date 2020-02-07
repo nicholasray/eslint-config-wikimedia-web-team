@@ -52,7 +52,4 @@ const rules = {
 	}
 }
 
-module.exports = Object.assign(
-	rules,
-	merge( rules, require( 'eslint-config-wikimedia/language/not-es5.js' ) )
-);
+module.exports = merge( rules, require( 'eslint-config-wikimedia/language/not-es5.js' ) )
