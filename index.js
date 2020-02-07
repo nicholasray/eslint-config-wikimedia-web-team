@@ -54,5 +54,5 @@ const rules = {
 
 module.exports = Object.assign(
 	rules,
-	merge( rules, require( './node_modules/eslint-config-wikimedia/language/not-es5.js' ) )
+	merge( rules, require( 'eslint-config-wikimedia/language/not-es5.js' ) )
 );
