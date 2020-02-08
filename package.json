@@ -1,11 +1,12 @@
 {
   "name": "eslint-config-wikimedia-web-team",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "ESLint config following Wikimedia Web Team Conventions",
   "main": "es5.client.json",
   "files": [
+		"common.json",
     "es5.client.json",
-    "es6.cient.json",
+    "es6.client.json",
     "language/es5.js",
     "language/es6.js"
   ],

@@ -7,7 +7,9 @@ const merge = require( 'eslint-config-wikimedia/language/merge.js' );
 const common = require('../common.json');
 const mergedRules = merge( common, require( 'eslint-config-wikimedia/language/not-es5.js' ) );
 
-module.exports = {
-	extends: "eslint-config-wikimedia/language/es5.json",
-	rules: mergedRules
-}
+module.exports = Object.assign(
+	{
+		extends: "eslint-config-wikimedia/language/es5.json",
+	},
+	mergedRules
+);
